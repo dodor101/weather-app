@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Weather Dashboard</title>
+	<link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+	<!-- container div -->
+	<main class="container">
+		<header>
+			<h1 class="header-text">Weather Dashboard</h1>
+		</header>
+		<!-- app data container  -->
+		<div class="main-div">
+			<form action="">
+				<label for="search" class="my-label" id="myLabel">Search for a City:</label>
+				<input type="text" placeholder="Enter a City" class="search-field" id="searchField" required name="search"> 
+				<button type="submit" class="form-btn">Search</button> 
+				<div id="search-history">Search History</div>
+			</form>
+			<!-- current day info -->
+			<div class="stats">
+				<h3 id="city-date"></h3>
+				<p>Temp: 76.62F</p> 
+				<p>Wind: 8.45 MPH</p>
+				<p>Humidity: 44 %</p> 
+
+				<!-- display forecast stats -->
+				
+				<div class="display-stats">
+					<h3>5-Day Forcast: </h3>
+					<div class="day-1">
+						<p>Temp: 76.62F</p> 
+						<p>Wind: 8.45 MPH</p> 
+						<p>Humidity: 44 %</p>
+					</div >
+					<div class="day-2">
+						<p>Temp: 76.62F</p>
+						<p>Wind: 8.45 MPH</p> 
+						<p>Humidity: 44 %</p> 
+					</div>
+					<div class="day-3">
+						<p>Temp: 76.62F</p> 
+						<p>Wind: 8.45 MPH</p> 
+						<p>Humidity: 44 %</p>
+					</div>
+					<div class="day-4">
+						<p>Temp: 76.62F</p> 
+						<p>Wind: 8.45 MPH</p> 
+						<p>Humidity: 44 %</p>
+					</div>
+					<div class="day-5">
+						<p>Temp: 76.62F</p> 
+						<p>Wind: 8.45 MPH</p> 
+						<p>Humidity: 44 %</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="./assets/js/script.js"></script>
+</body>
+</html>
+
+
+    
