@@ -196,7 +196,7 @@ function setSearchHistory(city) {
 
 // Append the search input from localStorage to the cities list
 function displayHistory() {
-    let history = getSearchHistory()
+    let history = getSearchHistory();
 
     if (history) {
         searchHistory.innerHTML = 'Search History'
