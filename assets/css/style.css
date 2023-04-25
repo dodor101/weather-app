@@ -1,38 +1,39 @@
 /* Generals */
 
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     width: 100%;
     height: 100vh;
 }
+
 .container {
     width: 90%;
     height: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    
+
 }
 
 .header-text {
-     display: flex;
-     width: 100%;
-     justify-content: center;
-     align-items: center;
-     height: 80px;
-     background: linear-gradient( 90deg, #761265, #331276);
-     color: #ffffff;
-     font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: linear-gradient(90deg, #761265, #331276);
+    color: #ffffff;
+    font-size: 40px;
 }
 
 .main-div {
-    display: flex; 
+    display: flex;
     width: 100%;
     height: 100%;
     border: #761265;
@@ -95,22 +96,22 @@ form {
     margin-left: 50px;
 }
 
-/* adding background to day classes */
- .day-1, 
- .day-2, 
- .day-3, 
- .day-4, 
- .day-5 {
+/* adding background to day ids */
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5 {
     background-color: #e757cf;
     width: 18%;
     padding: 10px;
     gap: 5px;
-    margin-top: 5px; 
- }
+    margin-top: 5px;
+}
 
- #search-history {
+#search-history {
     text-align: center;
     color: white;
     font-size: 36px;
-    
- }
+
+}
